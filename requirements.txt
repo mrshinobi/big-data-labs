@@ -1,0 +1,8 @@
+black
+findspark
+flake8
+isort
+jupyter
+pyspark
+pytest
+pytest-mock
