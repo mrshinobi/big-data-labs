@@ -1,0 +1,44 @@
+Using Python for marketplace development under tight deadlines
+Written by Sergey Glebko, Co-founder and CTO at Arateg (arateg.com), Arateg
+
+Background
+
+Operating in the e-commerce industry, the startup created a cashback service allowing customers to save up to 40% of each purchase. With this solution, the company raised funds and partnered with 1,200 stores.
+
+Striving to expand its influence and increase revenue, the organization aimed to create an online marketplace—allowing users to buy smartphones and tablets—and connect it with a cashback service. Since the customer needed to showcase the product to investors, the required functionality had to be delivered under tight deadlines.
+
+As Arateg has solid experience in e-commerce software development, the startup established cooperation with our team. Recognizing the existing issues, our software experts recommended using Python to reduce time-to-market, work out complex business logic, and address technical challenges.
+
+Challenge
+
+The startup aimed to build a marketplace that would allow users to search for information, make online payments, compare prices, and find the best offers. The company planned to connect 25 stores to an e-commerce platform and then gradually increase this number.
+
+As the system had to process massive arrays of data—hundreds of GB per day—aggregated from those stores, this could have an adverse effect on performance, and therefore, user experience. Engineers also needed to provide automated tracking of all data updates, for instance, changes in prices, shop descriptions, etc.
+
+Another important task was to enable the fast creation of product pages with improved Google search rankings.
+
+Resolving challenges with Python
+
+At Arateg, we employ Python to faster create complex web applications delivering an engaging user experience. We enjoy this programming language for numerous libraries and frameworks it provides (Django, Flask, Celery, Keras, Beautiful Soup, Selenium, SciPy, NumPy, Pandas, etc.) to complete various tasks.
+
+To process massive arrays of data collected from 25 online stores, our software engineers enabled data parsing by using Python, Beautiful Soup, Celery, and Selenium. Thanks to this solution, it became possible to process data chunks in parallel which allowed preserving reliable system performance.
+
+With Python and Django, our team worked out comprehensive business logic and improved software development speed. As a result, we managed to build an e-commerce platform within just three months. It is noteworthy that a slogan of Django is “The web framework for perfectionists with deadlines”.
+
+Then, we applied Django-filter to incorporate convenient data search with multiple filters. Employing this tool, our software experts added this feature much more quickly compared to manual coding.
+
+To integrate the PayPal payment gateway for online transactions, our developers used PayPal Python SDK. In addition, we used Python’s libraries to provide various payment methods, for example, Qiwi, WebMoney, Mastercard, and Visa.
+
+In order to achieve increased Google search rankings, our team used Django, Memcached, and Redis to enable a robust cache system—including caching of dynamic pages—and database indexing. Due to this technology stack, we achieved fast page load speed, which is crucial for search engine optimization.
+
+Project results
+
+The customer launched a marketplace that matches 25 online shops with consumers. The system is connected with a global affiliate network that serves as an intermediary between advertisers and webmasters, allowing stores to generate more traffic and increase sales.
+
+Thanks to the right technology stack, the organization developed the platform within just three months and showcased it to investors. With the delivered solution, the product was featured as one of the “TOP 5 startups in Russia”, having been recognized out of about 100 participants.
+
+About Arateg
+
+Arateg is a provider of custom software development and consulting services located in Eastern Europe. The company was founded in 2014 to help startups and SMEs address business-specific challenges—e.g., automate workflows, ensure data security, improve risk management—by using technologies.
+
+Our software engineers employ Python in conjunction with its libraries and frameworks to reduce time-to-market while delivering high-quality applications. Allowing to build solutions associated with artificial intelligence and scientific computing, Python drives innovation, which assists our customers in gaining a competitive advantage.

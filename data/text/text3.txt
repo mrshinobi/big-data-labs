@@ -1,0 +1,32 @@
+Using Python to develop a patient health portal
+Written by Sergey Glebko, Co-founder and CTO at Arateg (arateg.com), Arateg
+
+Introduction
+
+Arateg is a custom software development center based in Eastern Europe. Founded in 2014, our company assists startups and SMEs in addressing industrial challenges and succeeding in the market.
+
+Featured by trusted B2B review and rating platforms such as Clutch, GoodFirms, AppFutura, and WADLINE, Arateg delivers software solutions that drive innovation through artificial intelligence, data science, and scientific computing.
+
+Our team employs Python to build scalable applications while reducing time-to-market. We love Python for the variety of libraries and frameworks it provides, as well as for over 250,000 functionality packages. This programming language also contributes to the high development speed vital to product launch in a competitive business environment.
+
+Addressing technical issues with Python
+
+A provider of healthcare services located in the UK turned to our company to create a patient health portal. The company was backed by paper-based workflows. To visit a doctor, people had to travel from home to hospital and wait in queues, which might consume a few hours. However, although the institution was serving thousands of patients per month, it was important to provide them with the required timely care.
+
+For the purpose of improving customer satisfaction and boosting productivity, a medical organization wanted to build a patient health portal for online consultations, appointment scheduling, and health data analysis.
+
+Since a web system would process massive arrays of data—collected from patients, labs, clinics, pharmacies, etc.—high availability and fault tolerance had to be achieved.
+
+To address this challenge, our team enabled data parsing and parallelized the process of data aggregation by employing the following technology stack: RabbitMQ, Python, Celery, and Beautiful Soup. As a result, now the platform can process thousands of data chunks simultaneously.
+
+In order to capture and analyze information from multiple channels, our engineers connected APIs of all the necessary healthcare companies. Employing proxy.py, our Python developers provided platform resilience to heavy loads.
+
+With the view of ensuring the security of sensitive information, we implemented data encryption and role-based access control.
+
+Another critical task was to enrich video conferencing with stream transcoding so that it was possible to deliver online consultations to patients from regions that have low bandwidth. Aiming to address this issue, our team used AWS Elemental MediaConnect and REST API. To leverage AWS, we employed boto3, an AWS SDK for Python that allows making use of Amazon services.
+
+Result
+
+With a patient health portal, a healthcare company was able to automate appointment scheduling and request processing, as well as enable online consultations. Cooperating with Arateg, a medical institution managed to boost employee productivity and increase the overall efficiency by 62%. As of today, the organization can serve 3X more customers.
+
+The delivered platform can process massive arrays of data while preserving high availability and fault tolerance achieved with the use of Python and its tools such as Celery and Beautiful Soup.
