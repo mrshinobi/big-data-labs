@@ -6,7 +6,12 @@ def main():
     spark = SparkSession.builder.appName("StructuredStreamingFileWriter").getOrCreate()
 
     lines = (
-        spark.readStream.format("socket").option("host", "localhost").option("port", 9999).load()
+        spark
+        .readStream
+        .format("socket")
+        .option("host", "localhost")
+        .option("port", 9999)
+        .load()
     )
 
     enriched_lines = lines.withColumn("received_time", current_timestamp())
