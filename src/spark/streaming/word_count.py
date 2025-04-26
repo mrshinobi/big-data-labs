@@ -23,11 +23,12 @@ def main():
     wordCounts = words.groupBy("word").count()
 
     # Output the counts to the console
-    query = wordCounts.writeStream \
-        .outputMode("complete") \
-        .format("console") \
+    query = (
+        wordCounts.writeStream
+        .outputMode("complete")
+        .format("console")
         .start()
-
+    )
     query.awaitTermination()
 
 

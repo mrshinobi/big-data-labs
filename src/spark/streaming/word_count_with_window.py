@@ -24,8 +24,8 @@ def main():
         .groupBy(
             window(
                 words.timestamp,
-                "2 seconds",
-                "1 seconds"
+                "10 seconds",
+                "5 seconds"
             ),
             words.word
         )

@@ -2,16 +2,21 @@
 
 Repozytorium przedmiotu Big Data Intro na Uniwersytecie Warmińsko-Mazurskim w Olsztynie.
 
-Prowadzący:Paweł Procaj (pawel.procaj@gmail.com)
+Prowadzący: Paweł Procaj (pawel.procaj@edukacja.uwm.edu.pl)
+
+## ZADANIE DOMOWE
+
+Zadanie domowe do wykonania znajduje się tutaj: [homework/README.md](homework/README.md)
 
 ## Zawartość repozytorium
 
 Zawartość poszczególnych folderów:
 
-- [docs](docs/README.md) - dokumentacja do ćwiczeń
-- [linki](docs/linki.md) - linki do materiałów zewnętrznych
-- [src](src) - kod źródłowy do ćwiczeń
 - [data](data) - przykładowe dane do ćwiczeń
+- [docs](docs/README.md) - dokumentacja do ćwiczeń
+- [homework](homework/README.md) - zadanie domowe
+- [src](src) - kod źródłowy do ćwiczeń
+
 
 ## Wymagania
 

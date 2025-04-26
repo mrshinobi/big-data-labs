@@ -24,7 +24,7 @@ def run_server(file_path, port=9999, delay=1):
 
                 timestamp = datetime.datetime.now(datetime.UTC)
                 # message = f"{timestamp} {line}\n"
-                message = line.strip()
+                message = line
 
                 client_socket.send(message.encode("utf-8"))
                 time.sleep(delay)  # wait a bit between lines
@@ -35,7 +35,7 @@ def run_server(file_path, port=9999, delay=1):
 
 
 if __name__ == "__main__":
-    project_dir = "<PROJECT_DIR>"
+    project_dir = "/Users/katana/projects/uwm/big-data-labs"
     books_dir = f"{project_dir}/data/books/"
 
     run_server(file_path=f"{books_dir}/science.txt")
